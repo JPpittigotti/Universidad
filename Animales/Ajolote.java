@@ -24,12 +24,12 @@ public class Ajolote extends Animales {
 
     @Override
     public void hacerSonido(){
-        System.out.println("*El ajolote suelta burbujas bajo el agua*");
+        System.out.println("*El ajolote " + this.nombre + " suelta burbujas bajo el agua*");
     }
 
     @Override
     public String toString(){
-        return "me llamo " + this.nombre + ", soy un ajolode" + " de color " + this.color + " y tengo " + this.edad;
+        return "me llamo " + this.nombre + ", soy un ajolode" + " de color " + this.color + " y tengo " + this.edad + " años";
     }
 
 

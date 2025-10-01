@@ -54,12 +54,12 @@ public class Gato extends Animales{
 
     @Override
     public void hacerSonido(){
-        System.out.println("El gato " + this.nombre + " dice: miau ");
+        System.out.println(this.nombre + " dice: miau ");
     }
 
     @Override
     public String toString(){
-        return "me llamo " + this.nombre + ", soy un " + this.raza + " de color " + this.color + " y tengo " + this.edad;
+        return "me llamo " + this.nombre + ", soy un " + this.raza + " de color " + this.color + " y tengo " + this.edad + " años";
     }
 
 }

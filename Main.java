@@ -1,4 +1,5 @@
 import Animales.*;
+import Otros.*;
 
 public class Main{
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class Main{
 
         Ajolote ajolote1 = new Ajolote("Axel", 1, "Pecera", "Macho", "Omnívoro", "Mexicano", "Verde");
 
-        System.out.println(perro1);
+        System.out.println("\n" + perro1);
         perro1.hacerSonido();
         System.out.println(gato1);
         gato1.hacerSonido();
@@ -19,6 +20,13 @@ public class Main{
         ave1.hacerSonido();
         System.out.println(ajolote1);
         ajolote1.hacerSonido();
+        
+        System.out.println("");
+
+        Avion avion = new Avion("RompeTormentas");
+
+        System.out.println(ave1.volar());
+        System.out.println(avion.volar());
 
     }
 }
